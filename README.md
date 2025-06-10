@@ -2,7 +2,7 @@
 
 A Python tool to detect **known malicious URLs and IP addresses** from log files or network traffic using the [VirusTotal](https://www.virustotal.com/) API. Supports **real-time monitoring** or scheduled scanning.
 
-<br>
+---
 
 ## 🚀 Features
 
@@ -12,7 +12,7 @@ A Python tool to detect **known malicious URLs and IP addresses** from log files
 * 📡 Supports real-time file monitoring
 * 📊 CLI support with `argparse`
 
-<br>
+---
 
 ## 📂 Sample Input
 
@@ -32,7 +32,7 @@ GET http://unknown1234.xyz/home HTTP/1.1 200 OK
 
 ```
 
-<br>
+---
 
 ## 🛠️ Installation
 
@@ -55,20 +55,20 @@ GET http://unknown1234.xyz/home HTTP/1.1 200 OK
    VT_API_KEY = "YOUR_VIRUSTOTAL_API_KEY"
    ```
 
-<br>
+---
 
 ## 🧪 Usage
 
 ### One-time scan:
 
 ```bash
-python malicious_detector.py sample_log.log
+python malicious_detector.py sample.log
 ```
 
 ### Real-time monitoring:
 
 ```bash
-python malicious_detector.py sample_log.log --watch --interval 60
+python malicious_detector.py sample.log --watch --interval 60
 ```
 
 | Argument     | Description                                |
@@ -77,7 +77,7 @@ python malicious_detector.py sample_log.log --watch --interval 60
 | `--watch`    | Enable real-time file monitoring           |
 | `--interval` | Interval in seconds for real-time scanning |
 
-<br>
+---
 
 ## 📤 Output Example
 
@@ -92,14 +92,14 @@ python malicious_detector.py sample_log.log --watch --interval 60
 ✅ Clean
 ```
 
-<br>
+---
 
 ## 🔐 Notes
 
 * Free VirusTotal accounts are limited to **4 requests/minute**. Consider adding rate limiting or delays in high-volume use.
 * This tool is meant for educational or defensive security purposes only.
 
-<br>
+---
 
 ## 🙋‍♂️ Contributions
 
