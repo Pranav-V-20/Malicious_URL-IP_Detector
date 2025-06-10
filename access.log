@@ -1,0 +1,10 @@
+192.168.1.100 - - [10/Jun/2025:12:34:56 +0530] "GET http://example.com/index.html HTTP/1.1" 200 1024
+203.0.113.45 - - [10/Jun/2025:12:35:01 +0530] "POST http://malicious-site.ru/login.php HTTP/1.1" 403 512
+198.51.100.23 - - [10/Jun/2025:12:35:07 +0530] "GET https://secure-login.example.org/auth HTTP/1.1" 200 768
+203.0.113.12 - - [10/Jun/2025:12:35:13 +0530] "GET http://badip.site.com/payload.exe HTTP/1.1" 200 2048
+GET http://phishing-link.info/reset-password HTTP/1.1 200 OK
+Suspicious connection to IP: 45.77.111.222
+Ping from 8.8.8.8
+GET https://safe-site.net/resources HTTP/1.1 200 OK
+Connection attempt from IP: 185.220.101.45
+GET http://unknown1234.xyz/home HTTP/1.1 200 OK
