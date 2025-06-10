@@ -5,7 +5,7 @@ import time
 import re
 from pathlib import Path
 
-VT_API_KEY = "5b3691f73c04d5f3430c7be2891ac23e06075eeaedc487b9724d9446fa27334b"  # Replace with your actual VirusTotal API key
+VT_API_KEY = "your-api-key"  # Replace with your actual VirusTotal API key
 
 # === VirusTotal Query === #
 def check_virustotal(query, type_):
